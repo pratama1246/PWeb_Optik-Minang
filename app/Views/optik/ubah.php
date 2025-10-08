@@ -112,8 +112,9 @@
             </div>
 
             <div class="row mb-3">
-                <div class="col-sm-6 offset-sm-2">
+                <div class="col-sm-6 offset-sm-2 d-flex gap-2">
                     <button type="submit" class="btn btn-primary">Ubah Data</button>
+                    <a href="/optik" class="btn btn-secondary">Kembali ke Daftar</a>
                 </div>
             </div>
         </form>
