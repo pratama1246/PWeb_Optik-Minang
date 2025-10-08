@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `orders`
 --
-
+CREATE DATABASE IF NOT EXISTS `toko_optik` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `toko_optik`;
 CREATE TABLE `orders` (
   `no_order` int NOT NULL,
   `no_ref` int NOT NULL,
