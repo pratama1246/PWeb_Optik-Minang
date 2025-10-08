@@ -1,0 +1,280 @@
+CRITICAL - 2025-10-02 07:01:35 --> Error: Class "App\Controllers\OptikModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Optik.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Optik->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:25:23 --> ErrorException: Undefined variable $buku
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buku', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:26:35 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:28:39 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:39:00 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:42 --> ErrorException: Undefined variable $id_optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:54 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:55 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:55 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:56 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:56 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:43:56 --> ErrorException: Undefined variable $idoptik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idoptik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:46:11 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:47:21 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:48:23 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:51:41 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 08:55:56 --> ErrorException: Undefined variable $optik
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 26.
+ 1 APPPATH\Views\optik\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $optik', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 09:00:58 --> ErrorException: Undefined array key "judul"
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 29.
+ 1 APPPATH\Views\optik\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
+CRITICAL - 2025-10-02 09:01:02 --> ErrorException: Undefined array key "judul"
+[Method: GET, Route: optik]
+in APPPATH\Views\optik\index.php on line 29.
+ 1 APPPATH\Views\optik\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CI_240202115\\app\\Views\\optik\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('optik/index', [], true)
+ 5 APPPATH\Controllers\Optik.php(21): view('optik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Optik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Optik))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CI_240202115\\public\\index.php')
